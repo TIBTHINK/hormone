@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TestosteroneDust"
+      },
+      {
+        "value": "CUSTOM:TestosteroneDust"
+      },
+      {
+        "value": "CUSTOM:TestosteroneDust"
+      },
+      {
+        "value": "CUSTOM:TestosteroneDust"
+      },
+      {
+        "value": "CUSTOM:TestosteroneDust"
+      },
+      {
+        "value": "CUSTOM:TestosteroneDust"
+      },
+      {
+        "value": "CUSTOM:TestosteroneDust"
+      },
+      {
+        "value": "CUSTOM:TestosteroneDust"
+      },
+      {
+        "value": "CUSTOM:TestosteroneDust"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TestosteroneOreBlock"
+    },
+    "name": "testosterone_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "hormone",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hormone:testosterone_ore_block"
+    }
+  ],
+  "result": {
+    "item": "hormone:testosterone_dust",
+    "count": 9
+  }
+}

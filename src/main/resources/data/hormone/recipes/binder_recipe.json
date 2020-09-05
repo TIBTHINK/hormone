@@ -1,0 +1,39 @@
+{
+  "group": "hormone",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hormone:cloth"
+    },
+    "2": {
+      "item": "hormone:cloth"
+    },
+    "3": {
+      "item": "hormone:cloth"
+    },
+    "4": {
+      "item": "hormone:cloth"
+    },
+    "5": {
+      "item": "hormone:cloth"
+    },
+    "6": {
+      "item": "hormone:cloth"
+    },
+    "7": {
+      "item": "hormone:cloth"
+    },
+    "8": {
+      "item": "hormone:cloth"
+    }
+  },
+  "result": {
+    "item": "hormone:binder_armor_chestplate",
+    "count": 1
+  }
+}

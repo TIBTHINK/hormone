@@ -1,0 +1,42 @@
+{
+  "group": "hormone",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hormone:estergin"
+    },
+    "1": {
+      "item": "hormone:estergin"
+    },
+    "2": {
+      "item": "hormone:estergin"
+    },
+    "3": {
+      "item": "hormone:estergin"
+    },
+    "4": {
+      "item": "hormone:estergin"
+    },
+    "5": {
+      "item": "hormone:estergin"
+    },
+    "6": {
+      "item": "hormone:estergin"
+    },
+    "7": {
+      "item": "hormone:estergin"
+    },
+    "8": {
+      "item": "hormone:estergin"
+    }
+  },
+  "result": {
+    "item": "hormone:estergin_ore_ore_block",
+    "count": 1
+  }
+}

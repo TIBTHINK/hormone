@@ -1,0 +1,232 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Hormone",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hormone"
+    },
+    {
+      "name": "BinderArmor",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "binder_armor",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "Cloth",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cloth"
+    },
+    {
+      "name": "ClothRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cloth_recipe"
+    },
+    {
+      "name": "BinderRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "binder_recipe"
+    },
+    {
+      "name": "BlockOfBeef",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_of_beef"
+    },
+    {
+      "name": "Kitchen",
+      "type": "dimension",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kitchen"
+    },
+    {
+      "name": "Estergin",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "estergin"
+    },
+    {
+      "name": "EsterginOreOre",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "estergin_ore_ore"
+    },
+    {
+      "name": "EsterginOreOreBlock",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "estergin_ore_ore_block"
+    },
+    {
+      "name": "EsterginOreOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "estergin_ore_ore_block_recipe"
+    },
+    {
+      "name": "EsterginOreBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "estergin_ore_block_ore_recipe"
+    },
+    {
+      "name": "EsterginOreOreSmelting",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "estergin_ore_ore_smelting"
+    },
+    {
+      "name": "TestosteroneDust",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "testosterone_dust"
+    },
+    {
+      "name": "TestosteroneOre",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "testosterone_ore"
+    },
+    {
+      "name": "TestosteroneOreBlock",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "testosterone_ore_block"
+    },
+    {
+      "name": "TestosteroneOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "testosterone_ore_block_recipe"
+    },
+    {
+      "name": "TestosteroneBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "testosterone_block_ore_recipe"
+    },
+    {
+      "name": "TestosteroneOreSmelting",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "testosterone_ore_smelting"
+    },
+    {
+      "name": "Feminist",
+      "type": "mob",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "feminist"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabhormone": "Hormone",
+      "item.hormone.binder_armor_boots": "Binder Boots",
+      "item.hormone.kitchen": "flint and steel",
+      "item.hormone.feminist": "Feminist Spawn Egg",
+      "block.hormone.estergin_ore_ore_block": "Block of Estergin",
+      "item.hormone.binder_armor_helmet": "Binder Helmet",
+      "item.hormone.binder_armor_chestplate": "Binder Chestplate",
+      "item.hormone.cloth": "Cloth",
+      "item.hormone.binder_armor_leggings": "Binder Leggings",
+      "item.hormone.estergin": "Estergin",
+      "item.hormone.testosterone_dust": "Testosterone",
+      "block.hormone.testosterone_ore_block": "Block of Testosterone",
+      "block.hormone.testosterone_ore": "Testosterone Ore",
+      "block.hormone.estergin_ore_ore": "Estergin Ore",
+      "block.hormone.block_of_beef": "Block Of Beef",
+      "entity.hormone.feminist": "Feminist"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "hormone",
+    "modName": "Hormone",
+    "version": "1.0.1",
+    "description": "Adds hormones into the game we all love",
+    "author": "tibthink",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.14.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "com.tibthink.hormone",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

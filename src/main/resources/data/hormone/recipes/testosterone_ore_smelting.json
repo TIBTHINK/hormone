@@ -1,0 +1,12 @@
+{
+  "group": "hormone",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "hormone:testosterone_ore"
+  },
+  "result": {
+    "item": "hormone:testosterone_dust"
+  }
+}

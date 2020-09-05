@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "hormone:blocks/testosterone_ore_block",
+    "particle": "hormone:blocks/testosterone_ore_block"
+  }
+}

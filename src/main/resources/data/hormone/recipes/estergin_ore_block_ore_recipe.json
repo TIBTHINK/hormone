@@ -1,0 +1,13 @@
+{
+  "group": "hormone",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hormone:estergin_ore_ore_block"
+    }
+  ],
+  "result": {
+    "item": "hormone:estergin",
+    "count": 9
+  }
+}

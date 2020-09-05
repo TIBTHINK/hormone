@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "hormone:blocks/raw_beef",
+    "particle": "hormone:blocks/raw_beef"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "hormone",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hormone:testosterone_dust"
+    },
+    "1": {
+      "item": "hormone:testosterone_dust"
+    },
+    "2": {
+      "item": "hormone:testosterone_dust"
+    },
+    "3": {
+      "item": "hormone:testosterone_dust"
+    },
+    "4": {
+      "item": "hormone:testosterone_dust"
+    },
+    "5": {
+      "item": "hormone:testosterone_dust"
+    },
+    "6": {
+      "item": "hormone:testosterone_dust"
+    },
+    "7": {
+      "item": "hormone:testosterone_dust"
+    },
+    "8": {
+      "item": "hormone:testosterone_dust"
+    }
+  },
+  "result": {
+    "item": "hormone:testosterone_ore_block",
+    "count": 1
+  }
+}

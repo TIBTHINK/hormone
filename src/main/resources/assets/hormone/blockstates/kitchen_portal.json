@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "hormone:block/kitchen_portal_ew"
+    },
+    "axis=x": {
+      "model": "hormone:block/kitchen_portal_ns"
+    }
+  }
+}
