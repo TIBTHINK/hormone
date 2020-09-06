@@ -32,21 +32,11 @@
       "value": "Blocks.LAVA"
     },
     "airColor": {
-      "value": -4138753,
-      "frgbvalue": [
-        0.753,
-        0.847,
-        1.0
-      ],
-      "fvalue": [
-        0.753,
-        0.847,
-        1.0
-      ],
-      "falpha": 1.0
+      "value": -26215,
+      "falpha": 0.0
     },
     "canRespawnHere": true,
-    "hasFog": false,
+    "hasFog": true,
     "hasWeather": true,
     "isDark": false,
     "doesWaterVaporize": false,

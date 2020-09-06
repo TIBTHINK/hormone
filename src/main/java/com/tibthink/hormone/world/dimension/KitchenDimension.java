@@ -693,7 +693,7 @@ public class KitchenDimension extends HormoneModElements.ModElement {
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public Vec3d getFogColor(float cangle, float ticks) {
-			return new Vec3d(0.752941176471, 0.847058823529, 1);
+			return new Vec3d(1, 0.6, 0.6);
 		}
 
 		@Override
@@ -717,7 +717,7 @@ public class KitchenDimension extends HormoneModElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		@Override
 		public boolean doesXZShowFog(int x, int z) {
-			return false;
+			return true;
 		}
 
 		@Override
