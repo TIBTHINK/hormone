@@ -3,10 +3,10 @@ loaderVersion="[28,)"
 
 [[mods]]
 modId="hormone"
-version="1.0.1"
+version="1.0.2"
 displayName="Hormone"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
+credits="MCreator for the awsome tool, and alex for the idea"
+displayURL="https://github.com/TIBTHINK/hormone"
 authors="tibthink"
 description='''
 Adds hormones into the game we all love

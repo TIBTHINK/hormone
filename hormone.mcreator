@@ -223,10 +223,10 @@
   "workspaceSettings": {
     "modid": "hormone",
     "modName": "Hormone",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Adds hormones into the game we all love",
     "author": "tibthink",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://github.com/TIBTHINK/hormone",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -234,7 +234,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.14.4",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "MCreator for the awsome tool, and alex for the idea",
     "modElementsPackage": "com.tibthink.hormone",
     "lockBaseModFiles": false
   },
