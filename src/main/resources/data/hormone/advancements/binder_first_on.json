@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "hormone:binder_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.binder_first_on.title"
+    },
+    "description": {
+      "translate": "advancements.binder_first_on.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "binder_first_on": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

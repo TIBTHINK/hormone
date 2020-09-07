@@ -41,9 +41,10 @@ import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
-import net.minecraft.client.renderer.entity.model.VillagerModel;
+import net.minecraft.client.renderer.entity.model.BipedModel;
+import net.minecraft.client.renderer.entity.layers.BipedArmorLayer;
 import net.minecraft.client.renderer.entity.SpriteRenderer;
-import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.client.renderer.entity.BipedRenderer;
 import net.minecraft.client.Minecraft;
 
 import com.tibthink.hormone.itemgroup.HormoneItemGroup;
@@ -63,7 +64,7 @@ public class FeministEntity extends HormoneModElements.ModElement {
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.95f))
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.8f))
 						.build("feminist").setRegistryName("feminist");
 		elements.entities.add(() -> entity);
 		elements.items.add(() -> new SpawnEggItem(entity, -1, -1, new Item.Properties().group(HormoneItemGroup.tab)).setRegistryName("feminist"));
@@ -84,13 +85,16 @@ public class FeministEntity extends HormoneModElements.ModElement {
 	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
-		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class,
-				renderManager -> new MobRenderer(renderManager, new VillagerModel(0), 0.5f) {
-					@Override
-					protected ResourceLocation getEntityTexture(Entity entity1) {
-						return new ResourceLocation("hormone:textures/2020_08_27_mega-karen-15149791.png");
-					}
-				});
+		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class, renderManager -> {
+			BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(), 0.5f) {
+				@Override
+				protected ResourceLocation getEntityTexture(Entity entity) {
+					return new ResourceLocation("hormone:textures/2020_08_27_mega-karen-15149791.png");
+				}
+			};
+			customRender.addLayer(new BipedArmorLayer(customRender, new BipedModel(0.5f), new BipedModel(1)));
+			return customRender;
+		});
 		RenderingRegistry.registerEntityRenderingHandler(ArrowCustomEntity.class,
 				renderManager -> new SpriteRenderer(renderManager, Minecraft.getInstance().getItemRenderer()));
 	}

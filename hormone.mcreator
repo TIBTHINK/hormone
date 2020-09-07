@@ -195,6 +195,15 @@
       "locked_code": true,
       "ids": {},
       "registry_name": "estergin_syringe"
+    },
+    {
+      "name": "BinderFirstOn",
+      "type": "achievement",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "binder_first_on"
     }
   ],
   "variable_elements": [],
@@ -204,12 +213,14 @@
       "itemGroup.tabhormone": "Hormone",
       "item.hormone.binder_armor_boots": "Binder Boots",
       "item.hormone.kitchen": "flint and steel",
-      "item.hormone.feminist": "Feminist Spawn Egg",
       "block.hormone.estergin_ore_ore_block": "Block of EsterginOre",
+      "item.hormone.feminist": "Feminist Spawn Egg",
+      "advancements.binder_first_on.descr": "Craft and put on and The Binder",
       "item.hormone.binder_armor_helmet": "Binder Helmet",
       "item.hormone.binder_armor_chestplate": "Binder Chestplate",
       "item.hormone.cloth": "Cloth",
       "item.hormone.binder_armor_leggings": "Binder Leggings",
+      "advancements.binder_first_on.title": "Man, this thing is tighter than i though",
       "item.hormone.estergin": "Estergin",
       "item.hormone.testosterone_dust": "Testosterone",
       "item.hormone.estergin_syringe": "Estergin Syringe",
