@@ -6,6 +6,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
@@ -13,8 +14,13 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
+import java.util.Map;
+import java.util.HashMap;
+
+import com.tibthink.hormone.procedures.BinderArmorBodyTickEventProcedure;
 import com.tibthink.hormone.itemgroup.HormoneItemGroup;
 import com.tibthink.hormone.HormoneModElements;
 
@@ -68,6 +74,18 @@ public class BinderArmorItem extends HormoneModElements.ModElement {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "hormone:textures/models/armor/binder_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+			}
+
+			@Override
+			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
+				double x = entity.posX;
+				double y = entity.posY;
+				double z = entity.posZ;
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					BinderArmorBodyTickEventProcedure.executeProcedure($_dependencies);
+				}
 			}
 		}.setRegistryName("binder_armor_chestplate"));
 	}

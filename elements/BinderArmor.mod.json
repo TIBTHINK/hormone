@@ -10,12 +10,15 @@
     "textureLeggings": "binder_leggings",
     "enableBoots": false,
     "textureBoots": "binder_boots",
+    "onBodyTick": {
+      "name": "BinderArmorBodyTickEvent"
+    },
     "creativeTab": {
       "value": "CUSTOM:Hormone"
     },
     "armorTextureFile": "binder",
     "helmetName": "Binder Helmet",
-    "bodyName": "Binder Chestplate",
+    "bodyName": "Binder",
     "leggingsName": "Binder Leggings",
     "bootsName": "Binder Boots",
     "helmetSpecialInfo": [],

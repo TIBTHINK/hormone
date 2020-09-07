@@ -204,6 +204,53 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "binder_first_on"
+    },
+    {
+      "name": "RootOfThisMod",
+      "type": "achievement",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "root_of_this_mod"
+    },
+    {
+      "name": "BinderArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "binder_armor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FeministNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "feminist_natural_entity_spawning_condition",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "MakeCloth",
+      "type": "achievement",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "make_cloth"
     }
   ],
   "variable_elements": [],
@@ -213,20 +260,24 @@
       "itemGroup.tabhormone": "Hormone",
       "item.hormone.binder_armor_boots": "Binder Boots",
       "item.hormone.kitchen": "flint and steel",
+      "advancements.root_of_this_mod.descr": "WE HAVE ACHIEVEMENT\u0027S!!!",
       "block.hormone.estergin_ore_ore_block": "Block of EsterginOre",
       "item.hormone.feminist": "Feminist Spawn Egg",
       "advancements.binder_first_on.descr": "Craft and put on and The Binder",
       "item.hormone.binder_armor_helmet": "Binder Helmet",
-      "item.hormone.binder_armor_chestplate": "Binder Chestplate",
+      "item.hormone.binder_armor_chestplate": "Binder",
+      "advancements.root_of_this_mod.title": "Hormone",
       "item.hormone.cloth": "Cloth",
       "item.hormone.binder_armor_leggings": "Binder Leggings",
-      "advancements.binder_first_on.title": "Man, this thing is tighter than i though",
+      "advancements.binder_first_on.title": "Man, this thing is tight",
       "item.hormone.estergin": "Estergin",
       "item.hormone.testosterone_dust": "Testosterone",
       "item.hormone.estergin_syringe": "Estergin Syringe",
       "block.hormone.testosterone_ore_block": "Block of Testosterone",
+      "advancements.make_cloth.descr": "Craft cloth from string",
       "block.hormone.testosterone_ore": "Testosterone Ore",
       "block.hormone.estergin_ore_ore": "EsterginOre Ore",
+      "advancements.make_cloth.title": "Make Cloth",
       "block.hormone.block_of_beef": "Block Of Beef",
       "entity.hormone.feminist": "Feminist"
     }

@@ -30,7 +30,7 @@ public class EsterginSyringeItem extends HormoneModElements.ModElement {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(HormoneItemGroup.tab).maxStackSize(64)
 					.food((new Food.Builder()
-						.effect(new EffectInstance(Effects.WEAKNESS, 300, 0), 1)
+						.effect(new EffectInstance(Effects.WEAKNESS, 10000, 0), 2)
 						.build())
 			));
 			setRegistryName("estergin_syringe");

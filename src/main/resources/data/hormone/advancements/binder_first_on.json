@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "hormone:binder_armor_chestplate"
     },
@@ -11,7 +10,7 @@
       "translate": "advancements.binder_first_on.descr"
     },
     "frame": "goal",
-    "show_toast": true,
+    "show_toast": false,
     "announce_to_chat": true,
     "hidden": false
   },
@@ -22,5 +21,6 @@
   },
   "rewards": {
     "experience": 1
-  }
+  },
+  "parent": "hormone:make_cloth"
 }

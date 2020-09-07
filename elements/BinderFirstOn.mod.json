@@ -2,14 +2,14 @@
   "_fv": 10,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Man, this thing is tighter than i though",
+    "achievementName": "Man, this thing is tight",
     "achievementDescription": "Craft and put on and The Binder",
     "achievementIcon": {
       "value": "CUSTOM:BinderArmor.body"
     },
     "background": "Default",
     "disableDisplay": false,
-    "showPopup": true,
+    "showPopup": false,
     "announceToChat": true,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
@@ -18,7 +18,7 @@
     "rewardXP": 1,
     "achievementType": "goal",
     "parent": {
-      "value": "No parent: root"
+      "value": "CUSTOM:MakeCloth"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"42\" y=\"49\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
   }

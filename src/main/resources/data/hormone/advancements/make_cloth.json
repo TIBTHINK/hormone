@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "hormone:cloth"
+    },
+    "title": {
+      "translate": "advancements.make_cloth.title"
+    },
+    "description": {
+      "translate": "advancements.make_cloth.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "make_cloth": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "hormone:cloth",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "hormone:root_of_this_mod"
+}
